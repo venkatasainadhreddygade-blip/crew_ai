@@ -4,8 +4,8 @@ from crewai_tools import SerperDevTool
 from dotenv import load_dotenv
 import os
 
-import crewai.llms.cache as _crewai_cache
-_crewai_cache.mark_cache_breakpoint = lambda msg: msg
+# import crewai.llms.cache as _crewai_cache
+# _crewai_cache.mark_cache_breakpoint = lambda msg: msg
 
 load_dotenv()
 
