@@ -5,8 +5,8 @@ description = "marketing_crewai using crewAI"
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<3.14"
 dependencies = [
-    "crewai[tools]==1.14.6"
-    crewai[tools,litellm]==1.14.6
+    "crewai[tools]==1.14.6",
+    "crewai[litellm]==1.14.6",
 
 ]
 
