@@ -1453,14 +1453,12 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "crewai", extra = ["litellm", "tools"] },
-    { name = "litellm" },
     { name = "python-dotenv" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "crewai", extras = ["litellm", "tools"], specifier = ">=0.86.0" },
-    { name = "litellm", specifier = ">=1.88.0" },
     { name = "python-dotenv", specifier = ">=1.0.0" },
 ]
 
